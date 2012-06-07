@@ -92,12 +92,16 @@ html,body,div,p,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,legend,blo
 	padding-bottom: 10em;
 }
 
-a:link, a:visited, .js_link {
+a:link, .js_link {
 	color: #002BBA;
 }
 
 a:hover, .js_link:hover {
 	color: #FC6714;
+}
+
+a:visited {
+	color: #632D9B;
 }
 
 .main-head a:link, .main-head a:visited, .main-foot .options a:link, .main-foot .options a:visited, .main-head .js_link, .main-foot .options .js_link {
