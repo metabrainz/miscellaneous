@@ -108,3 +108,9 @@ a:visited {
 .main-head a:link, .main-head a:visited, .main-foot .options a:link, .main-foot .options a:visited, .main-head .js_link, .main-foot .options .js_link {
 	color: #00579C;
 }
+
+input[type="submit"], input[type="button"], input[type="reset"], button,
+.primary input[type="submit"], .primary input[type="button"], .primary input[type="reset"], .primary button,
+.primary input[type="submit"]:hover, .primary input[type="submit"]:focus, .primary input[type="reset"]:hover, .primary input[type="reset"]:focus, .primary input[type="button"]:hover, .primary input[type="button"]:focus, .primary button:hover, .primary button:focus {
+	text-shadow: none;
+}
