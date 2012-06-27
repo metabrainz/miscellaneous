@@ -64,6 +64,7 @@ html,body,div,p,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,legend,blo
 #brd-navlinks a:hover, .main-menu a:hover, .admin-menu a:hover {
 	background: #FC6714;
 	color: #FFFFFF;
+	text-shadow: none;
 }
 
 .main-head, .main-foot {
